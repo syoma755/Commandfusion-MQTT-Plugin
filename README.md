@@ -15,11 +15,14 @@ Use Add Command to generate publish messages. Just put MQTT_Publish function in 
 For example:
 
 For switch:
-Field Javascript: MQTT_Publish("/myhome/command/Light_FF_Bath_Ceiling/state","ON", system)
+Field Javascript:
+MQTT_Publish("/myhome/command/Light_FF_Bath_Ceiling/state","ON", system)
 
 For slider:
-Field Command Value:{{[sliderval]}}
-Field Javascript: MQTT_Publish("/myhome/command/Temperature_Setpoint/state",data, system)
+Field Command Value:
+{{[sliderval]}}
+Field Javascript: 
+MQTT_Publish("/myhome/command/Temperature_Setpoint/state",data, system)
 Do not forget to set "Javascript sends command value" flag
 
 To process feedbacks:
