@@ -33,5 +33,5 @@ To process feedbacks:
 /myhouse/office/Room_Temp=(.*)
 
 ## Some improvements are planned:
-- packet length is calculated a bit primitive way, and not according to standard
+- packet length is calculated a bit primitive way, and not according to standard (this should be fixed with recent commit by Jarrod)
 - Security/Authorization to be added
